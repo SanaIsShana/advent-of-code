@@ -1,8 +1,8 @@
 // Calculates value of the position zero
-const getPositionZero = (incodeArray) => { 
+const getPositionZero = (incodeArray) => {
   let array = [...incodeArray]
-  
-  // Loop through array and forward 4 positions each time
+
+  // Loop through array and move forward 4 positions each time
   for (let i = 0; i < array.length; i += 4) {
     let opcode = array[i]
     let numA = array[array[i + 1]]

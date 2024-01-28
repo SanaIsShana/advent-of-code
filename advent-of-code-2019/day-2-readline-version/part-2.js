@@ -9,7 +9,7 @@ function checkResult() {
   // Create a new array with value from 0 - 99
   const numbers = Array.from(Array(100).keys())
 
-  // Replace address/position one with noun and address/position with verb
+  // Replace address/position one with noun and address/position two with verb
   for (let noun of numbers) {
     for (let verb of numbers) {
       intcodeArray[1] = noun
